@@ -2,24 +2,24 @@
 * {
     /* margem - externa */
     margin: 0%;
-    
+ box-sizing: border-box;
 }
 
 
 
 body {
    /* cor fundo */
-    background-color: rgb(247, 214, 250); 
+    background-color: rgb(255, 254, 180); 
  
     /* cor texto */
-    color: rgb(0, 0, 0);
+    color: rgb(230, 111, 166);
 } 
 
 /* seletor para os <A> */
 a {
     /* propriedade e VALOR */
      text-decoration: none ;
-color: black;
+color: rgb(255, 255, 255);
 }
 
 /* header = cabeçalho */
@@ -28,7 +28,7 @@ header {
     display: flex;
 justify-content: space-between;
 align-items: center;
-background-color: #ffffff;
+background-color: #ecb4d7;
 /* largura ou comprimento */
 width: 100%;
 
