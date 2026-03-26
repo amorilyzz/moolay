@@ -2,37 +2,44 @@
 * {
     /* margem - externa */
     margin: 0%;
- box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
 
 body {
-   /* cor fundo */
-    background-color: rgb(255, 254, 180); 
- 
+    /* cor fundo */
+    background-color: rgb(255, 254, 180);
+
     /* cor texto */
     color: rgb(230, 111, 166);
-} 
+}
 
 /* seletor para os <A> */
 a {
     /* propriedade e VALOR */
-     text-decoration: none ;
-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 /* header = cabeçalho */
 header {
     /* ROW linha Horizontal */
     display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: #ecb4d7;
-/* largura ou comprimento */
-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ecb4d7;
+    /* largura ou comprimento */
+    width: 100%;
 
 }
 
-
+/* UL sistema lista tópicos */
+.menu {
+list-style: none;
+/* lista horizontal */
+display: flex;
+/* espaço */
+gap: 1rem; /* um rem */
+}
 
