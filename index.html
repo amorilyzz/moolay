@@ -18,43 +18,41 @@
    <!-- cabeçalho -->
    <header> 
       <!-- logo -->
-      <div>
-         <a href="http://shein.com">
-            meu logo
+      <div class="header-logo">
+          <a href="#home">
+            Moolay 
          </a>
       </div>
 
       <!-- menu desktop / pc -->
-      <nav>
-         <ul>
+      <nav class="menu-desktop">
+         <ul class="menu">
             <li>
-               <a href="">
-                  <span>início</span>
+               <a href="#inicio" class="menu-link active">
+                  <span class="menu-texto">início</span>
                </a>
             </li>
 
 
-
-
             <li>
-               <a href="">
-                  <span>projetos</span>
-               </a>
-            </li>
-
-
-
-            <li>
-               <a href="">
-                  <span>sobre</span>
+               <a href="#projetos" class="menu-link">
+                  <span class="menu-texto">projetos</span>
                </a>
             </li>
 
 
 
             <li>
-               <a href="">
-                  <span>contato</span>
+               <a href="#sobre" class="menu-link">
+                  <span class="menu-texto">sobre</span>
+               </a>
+            </li>
+
+
+
+            <li>
+               <a href="#contato" class="menu-link">
+                  <span class="menu-texto">contato</span>
                </a>
             </li>
          </ul>
@@ -63,11 +61,13 @@
       </nav>
 
       <!-- Icone trocar cor tema -->
-      <div>
+      <div class="header-toggle">
+         
          <!-- icone sol e lua -->
-         <i class="bi bi-sun"></i>
+         <i class="bi bi-sun" id="toggleTheme"> </i>
+         
          <!-- hamburguer -->
-         <button>
+         <button class="btn-menu-mobile" id="menuHamburger">
             <i class="bi bi-list"></i>
          </button>
       </div>
