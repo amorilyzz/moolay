@@ -9,17 +9,17 @@
 
 body {
     /* cor fundo */
-    background-color: rgb(255, 254, 180);
+    background-color: rgb(60, 255, 0);
 
     /* cor texto */
-    color: rgb(230, 111, 166);
+    color: rgb(208, 255, 0);
 }
 
 /* seletor para os <A> */
 a {
     /* propriedade e VALOR */
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(238, 255, 0);
 }
 
 /* header = cabeçalho */
@@ -28,7 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ecb4d7;
+    background-color: #ff3300;
     /* largura ou comprimento */
     width: 100%;
 
@@ -36,10 +36,44 @@ header {
 
 /* UL sistema lista tópicos */
 .menu {
-list-style: none;
-/* lista horizontal */
-display: flex;
-/* espaço */
-gap: 1rem; /* um rem */
+    list-style: none;
+    /* lista horizontal */
+    display: flex;
+    /* espaço */
+    gap: 1rem;
+    /* um rem */
 }
 
+/* tag NAV */
+.menu-desktop {
+    display: none;
+}
+
+/* daqui para cima versão mobile */
+/* ========================================================================================================================================== */
+
+
+
+/* Responsivo */
+/* serve para telas maiores */
+/* telas maiores que 768px */
+@media(min-width: 768px) {
+    header {
+
+        /* espaço interno */
+        padding: 1rem 6rem;
+       justify-content: ;
+       gap: ;
+    }
+
+
+
+
+    /* NAV */
+    .menu-desktop {
+        display: flex;
+    }
+
+
+
+}
