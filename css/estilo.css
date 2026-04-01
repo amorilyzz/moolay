@@ -9,17 +9,17 @@
 
 body {
     /* cor fundo */
-    background-color: rgb(60, 255, 0);
+    background-color: rgb(199, 220, 252);
 
     /* cor texto */
-    color: rgb(208, 255, 0);
+    color: rgb(235, 241, 173);
 }
 
 /* seletor para os <A> */
 a {
     /* propriedade e VALOR */
     text-decoration: none;
-    color: rgb(238, 255, 0);
+    color: rgb(255, 255, 255);
 }
 
 /* header = cabeçalho */
@@ -28,7 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ff3300;
+    background-color: #7ed0df;
     /* largura ou comprimento */
     width: 100%;
 
@@ -49,6 +49,14 @@ header {
     display: none;
 }
 
+/* logo */
+.logo {
+width: 7rem;
+}
+
+
+
+
 /* daqui para cima versão mobile */
 /* ========================================================================================================================================== */
 
@@ -58,22 +66,23 @@ header {
 /* serve para telas maiores */
 /* telas maiores que 768px */
 @media(min-width: 768px) {
-    header {
 
+   header {
         /* espaço interno */
         padding: 1rem 6rem;
-       justify-content: ;
-       gap: ;
+        justify-content: ;
+        gap: ;
     }
 
+/* NAV */
+.menu-desktop {
 
-
-
-    /* NAV */
-    .menu-desktop {
-        display: flex;
-    }
-
-
+display: flex;
 
 }
+
+}
+
+
+
+ 
